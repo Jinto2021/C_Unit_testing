@@ -25,5 +25,5 @@ script:
   - ./output
 
   - echo "compiling j_test.c"
-  - gcc j_practice.c j_test.c -o output -lcunit
-  - ./output
+  - gcc j_practice.c main.c j_test.c -o test_output -lcunit
+  - ./test_output
