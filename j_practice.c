@@ -11,6 +11,8 @@ float addition (float a, float b)
 
 void j_practice()
 {
-  printf("Welcome to functions by Jinto\n Best wishes!\n" );
+  printf("Running j_practice.c \n");
   
+  
+  printf("Exiting j_practice.c \n");
 }
