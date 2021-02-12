@@ -19,3 +19,7 @@ script:
   - echo "Reached Script Section"
   - gcc hello_world.c -o output
   - ./output  
+
+  - echo "compiling /EmbeddedTrainingFeb/main.c"
+  - gcc main.c -o main
+  - ./main
