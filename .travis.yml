@@ -23,3 +23,7 @@ script:
   - echo "compiling main.c"
   - gcc j_practice.c  main.c -o output
   - ./output
+
+  - echo "compiling j_test.c"
+  - gcc j_test.c -o output -lcunit
+  - ./output
