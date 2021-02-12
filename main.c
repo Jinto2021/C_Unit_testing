@@ -9,5 +9,5 @@ int main(){
 //  s_practice();
 //  v_practice();
   
-  return 100;
+  return 0;
  }
