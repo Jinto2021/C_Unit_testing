@@ -20,6 +20,6 @@ script:
   - gcc hello_world.c -o output
   - ./output  
 
-  - echo "compiling /EmbeddedTrainingFeb/main.c"
-  - gcc ./EmbeddedTrainingFeb/main.c -o main
+  - echo "compiling main.c"
+  - gcc main.c -o main
   - ./main
