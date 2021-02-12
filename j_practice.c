@@ -2,6 +2,6 @@
 
 void j_practice()
 {
-  printf("Welcome to functions by Jinto" );
+  printf("Welcome to functions by Jinto\n Best wishes!" );
   
 }
