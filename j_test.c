@@ -29,8 +29,11 @@ void test_add(void)
     CU_ASSERT(t_add(-1,30) == 29);
     CU_ASSERT(t_add(-18,21) == 3);
 }
-int j_test()
 
+
+// int j_test() 
+int main() // cUnit calls main function. hence function name main has all the test framework
+ 
 {
   
   printf("Running j_test.c \n");
