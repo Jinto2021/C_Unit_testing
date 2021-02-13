@@ -1,6 +1,8 @@
 #include <CUnit/CUnit.h>
 #include <CUnit/Basic.h>
-#include "main.h"
+// #include "main.h"
+#include <stdio.h>
+
 
 // Write functions for tests (and suite init/cleanup if necessary).
 
